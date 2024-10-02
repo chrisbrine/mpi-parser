@@ -1,0 +1,37 @@
+{
+  "name": "@strbjun/mpi-parser",
+  "version": "0.1.0",
+  "description": "This is a simple lisp like parser for a personally created MPI syntax in TypeScript based on an MPI parsing system from the 90s.",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "mpi",
+    "parser",
+    "typescript",
+    "lisp",
+    "syntax",
+    "interpreter"
+  ],
+  "author": "Chris Brine <chrisbrine.web@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbrine/mpi-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisbrine/mpi-parser/issues"
+  },
+  "homepage": "https://github.com/chrisbrine/mpi-parser#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.11.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.0"
+  }
+}
